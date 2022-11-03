@@ -1,3 +1,10 @@
 .h-500px {
     height: 500px;
 }
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 6.5rem !important;
+        padding-left: 6.5rem !important;
+    }
+}
